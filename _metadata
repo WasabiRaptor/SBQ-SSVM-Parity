@@ -1,0 +1,14 @@
+{
+	"version" : "0.1",
+	"tags" : "",
+	"author" : "Wasabi_Raptor/LokiVulpix",
+	"description" : "An attempt at SBQ and SSVM parity",
+	"link" : "https://github.com/Zygahedron/Starbecue",
+	"name" : "SBQ_SSVM_Parity",
+	"friendlyName" : "SBQ SSVM Parity",
+	"includes" : [
+		"Starbecue",
+
+		"StarboundSimpleVoreModVSO", "ssvm", "Starbound Simple Vore Mod", "SSVMVSOchars", "SSVMSPOVZovoroth", "SSVMSPOVLekrashar", "SSVMSPOVHappers", "SSVMSPOVelric", "SSVMSPOV_TEMPLATE" // to make sure we overwrite anything from SSVM that we need to
+	]
+}

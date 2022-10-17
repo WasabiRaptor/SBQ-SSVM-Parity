@@ -1,0 +1,14 @@
+[
+	[
+		{
+			"op": "test",
+			"path": "/scripts/0",
+			"value": "/npcs/bmain.lua"
+		},
+		{
+			"op": "add",
+			"path": "/scripts/-",
+			"value": "/npcs/vore/SBQ_SSVM_tenant_override.lua"
+		}
+	]
+]

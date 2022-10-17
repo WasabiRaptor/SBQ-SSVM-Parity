@@ -1,0 +1,9 @@
+[
+	[
+		{
+			"op": "test",
+			"path": "/scripts/0",
+			"value": "/npcs/bmain.lua"
+		}
+	]
+]
