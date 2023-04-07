@@ -21,8 +21,8 @@ function attemptActivate()
 	if #people == 1 then
 		self.target = people[1]
 
-		sbq.addRPC(world.sendEntityMessage( self.target, "sbqIsPreyEnabled", voreTypes[self.context + 1]), function (enabled)
-			if enabled and enabled.enabled then
+		sbq.addRPC(world.sendEntityMessage( self.target, "sbqIsPreyEnabled", voreTypes[self.context + 1]), function (data)
+			if data and data.enabled then
 				activate()
 			else
 				animator.playSound( "deactivate", 0 )
